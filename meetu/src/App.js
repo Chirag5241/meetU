@@ -1,14 +1,14 @@
 import "./App.css";
-
+import './components';
+import Demo from './components/demo/Demo.js'
 import {
   Navbar,
   Header,
   Features,
-  Download,
-  Subscribe,
-  Faq,
+
   Footer,
 } from "./components";
+
 
 function App() {
   return (
@@ -20,11 +20,16 @@ function App() {
       <header className="header-bg">
         <Header />
       </header>
+<<<<<<< HEAD
       </header>
       <Features/> {/* data-aos="fade-up" /> */}
+=======
+      <Features/>
+>>>>>>> ca3c8daa4d4d5ef387253b8cf9af0325b1fd0896
       {/* {/* <Download /> */}
       {/* <Subscribe /> */}
       {/* <Faq /> */}
+      <Demo/>
       <Footer />
     </>
   );

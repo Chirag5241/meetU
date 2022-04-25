@@ -6,11 +6,6 @@ import { BsHexagon } from "react-icons/bs";
 const Feature = ({ icon, heading, text }) => {
   return (
     <div>
-    <div>
-      {/* <h1>
-        Features
-      </h1> */}
-    </div>
     <div className="feature">
       <div className="feature-icon">
         <BsHexagon color="#fc5412" size={55} />

@@ -17,7 +17,7 @@
 }
 
 .navbar {
-  background: #131313;
+  background: #141B41;
   height: 80px;
   display: flex;
   justify-content: center;    /* keep in center*/
@@ -115,6 +115,6 @@
 } */
 
 .navbar__links:hover {
-  color: #9518fc;
+  color: orangered;
   transition: all 0.5s ease;
 }
