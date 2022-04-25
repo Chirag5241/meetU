@@ -16,8 +16,6 @@ const Features = () => {
   }, []);
   return (
     <div>
-      {/* <div><h1>Features</h1></div> */}
-    
       <section id="features">
         <div className="container features">
           
