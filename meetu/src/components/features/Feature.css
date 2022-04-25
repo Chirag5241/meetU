@@ -23,3 +23,8 @@
   text-transform: uppercase;
   color: var(--light-blue);
 }
+.feature-text h4 {
+  font-size: 1.4rem;
+  
+}
+

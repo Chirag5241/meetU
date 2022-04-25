@@ -25,16 +25,32 @@
   /* padding: 3rem 0; */
 }
 
-.features-left {
+.features-left1 {
   flex: 1;
   text-align: center;
+  
 }
-.features-left img {
+.features-left1 img {
   width: 65%;
 }
-.features-right {
+.features-right1 {
+  flex: 1;
+  margin: auto;
+}
+
+.features-left2 {
+  flex: 1;
+  text-align: left;
+  margin: auto;
+}
+.features-right2 {
+  text-align: center;
   flex: 1;
 }
+.features-right2 img {
+  width: 65%;
+}
+
 
 @media screen and (max-width: 600px) {
   .features-content {
