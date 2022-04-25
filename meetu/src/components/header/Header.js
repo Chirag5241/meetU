@@ -5,15 +5,15 @@ import "../UI/Button/Button.css";
 import phoneHeader from "../../assets/phone-header-bg.png";
 // import { BsMouse } from "react-icons/bs";
 
-// import AOS from "aos";
-// import "aos/dist/aos.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Header = () => {
-  // useEffect(() => {
-  //   AOS.init({
-  //     duration: 1000,
-  //   });
-  // }, []);
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+    });
+  }, []);
   return (
     <section id="header">
       <div className="container header">

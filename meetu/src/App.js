@@ -13,9 +13,13 @@ import {
 function App() {
   return (
     <>
-      <header className="header-bg">
+      <header className="navbar-bg">
         <Navbar />
+      </header>
+      <header className="navbar-bg">
+      <header className="header-bg">
         <Header />
+      </header>
       </header>
       <Features/> {/* data-aos="fade-up" /> */}
       {/* <Download />
