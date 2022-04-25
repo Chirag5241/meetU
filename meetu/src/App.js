@@ -18,9 +18,9 @@ function App() {
         <Header />
       </header>
       <Features/> {/* data-aos="fade-up" /> */}
-      {/* <Download />
-      <Subscribe />
-      <Faq /> */}
+      {/* {/* <Download /> */}
+      {/* <Subscribe /> */}
+      {/* <Faq /> */}
       <Footer />
     </>
   );
