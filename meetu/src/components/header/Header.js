@@ -19,23 +19,21 @@ const Header = () => {
       <div className="container header">
         <div className="header-left" data-aos="fade-right">
           <h1>
-            <span>The Future of Connections</span>
-            <span>is a Lorem ipsum dolor sit amet, consectetur adipisicing</span>
-            <span>is a Lorem ipsum dolor sit amet, consectetur adipisicing</span>
+            <span>THE FUTURE OF CONNECTIONS</span>
+            <span>is a dynamic social network built for you </span>
+            {/* <span>is a Lorem ipsum dolor sit amet, consectetur adipisicing</span> */}
           </h1>
           <p className="u-text-small">
-            meetu is a Lorem ipsum dolor sit amet, consectetur adipisicing
-            elit. Obcaecati ea aliquam sit nemo nisi! Nesciunt quis illum id qui
-            et!
+            MeetU is an Event Driven social networking app
           </p>
           {/* <div className="header-cta">
             <Button text={"Get Started"} btnClass={"btn-dark"} href={"#"} />
             <Button text={"How It Works"} btnClass={"btn-light"} href={"#"} />
           </div> */}
         </div>
-        <div className="header-right" data-aos="fade-left">
+        {/* <div className="header-right" data-aos="fade-left">
           <img src={phoneHeader} alt="phone" />
-        </div>
+        </div> */}
       </div>
       {/* <div className="floating-icon">
         <a href="#features">

@@ -1,7 +1,9 @@
 import React, { useEffect } from "react";
 import "./Features.css";
 import { BsFillBookmarkStarFill } from "react-icons/bs";
-import phoneFeatures from "../../assets/phone-features.png";
+import phoneFeatures from "../../assets/events.png";
+import matches from "../../assets/match.png";
+
 import Feature from "./Feature";
 import { FeatureListTop, FeatureListBot } from "./data";
 
@@ -49,7 +51,7 @@ const Features = () => {
               ))}
             </div>
             <div className="features-right2" data-aos="fade-left">
-              <img src={phoneFeatures} alt="phone" />
+              <img src={matches} alt="phone" />
             </div>
           </div>
         </div>
