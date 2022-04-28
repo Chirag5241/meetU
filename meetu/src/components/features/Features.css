@@ -26,8 +26,15 @@ body {
 .features-content {
   display: flex;
   justify-content: center;
-  /* padding: 3rem 0; */
+  padding-top: 6rem;
 }
+/* 
+.container_features2 {
+  display: flex;
+  justify-content: center;
+  padding-top: 100 px;
+} */
+
 
 .features-left1 {
   flex: 1;
@@ -52,7 +59,8 @@ body {
   flex: 1;
 }
 .features-right2 img {
-  width: 65%;
+  width: 125%;
+  text-align: center;
 }
 
 
